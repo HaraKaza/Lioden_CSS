@@ -1,0 +1,536 @@
+/*
+Free to use CSS template by Katie (#106445).
+This code may be altered, edited, or re-uploaded. 
+This template may be used to create paid codes (pre-mades and commissions).
+Please do NOT remove this credit, unless your coding becomes unrecognizable from this one! 
+*/
+
+/* FONT (From Google Fonts) */
+
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300&display=swap');
+
+/* BACKGROUND */
+
+body {
+	background: url('https://snipboard.io/0zK9m4.jpg') center center fixed;
+	background-size: 100%;
+	font-family: 'Kalnia', serif;
+	color: #2e2a2b
+}
+
+/* MAIN PANEL */
+
+/* RIGHT SIDE */
+.container.main {
+	background: rgba(58, 58, 58, 0.9);
+	border: none;
+	box-shadow: none;
+	border-radius: 0px
+}
+
+/* LEFT SIDE */
+.col-md-9 {
+	background: none;
+        border-right: none
+}
+
+/* TOPBAR ("Welcome back, ___") */
+
+.topbar {
+	background: rgba(140, 140, 140, 0.9);
+	border: none;
+	border-top: none;
+	color: #000000;
+	border-radius: 0px;
+}
+
+/* NAVBAR (Den/Crossroads/Etc.) */
+
+.navbar {
+	background: rgba(140, 140, 140, 0.9);
+	border-bottom: none;
+	color: #000000;
+	border-radius: 0px
+}
+
+/* NAVBAR BUTTON TEXT COLOR */
+
+.navbar li a {
+	color: #000000 !important
+}
+
+/* NAVBAR BUTTON HOVER */
+
+.navbar li a:hover {
+	background: rgba(140, 140, 140, 0.9) !important;
+	border-bottom: none;
+	color: #000000 !important;
+	border-radius: 0px
+}
+
+/* BREADCRUMB (Home / Den) */
+
+.breadcrumb {
+	background: rgba(140, 140, 140, 0.9) !important;
+        border: none;
+	border-radius: 0px
+}
+
+/* BREADCRUMB TEXT */
+
+.breadcrumb .active {
+	color: #000000
+}
+
+/* CSS CREDIT */
+
+.breadcrumb::after {
+        content: "Template by Katie [#106445] | Edited by Sprout [#185560]";
+        color: #ffffff;
+        position: absolute;
+        right: 13%; /* (This may need adjusting) */
+        z-index: 100
+    }
+
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%
+        }
+    }
+
+/* BOOKMARK BUTTON */
+
+input.floatright, input.floatright:hover {
+	background: rgba(140, 140, 140, 0.9) !important;
+        border: none !important;
+	border-radius: 0px;
+	color: #000000 !important;    
+}
+
+/* SWITCH ACCOUNT BUTTON */
+
+button.button, button.button:hover {
+	background: rgba(140, 140, 140, 0.9);
+        border: none !important;
+	border-radius: 0px;
+        text-shadow: none !important;
+	color: #000000 !important
+}
+
+/* ALERTS (ie. "Your lionesses have returned from hunting!") */
+
+.alert,
+.alert-warning,
+.alert-danger {
+	background: rgba(140, 140, 140, 0.7) !important;
+	border: none;
+	color: #000000;
+	border-radius: 0px !important
+}
+
+/* BIGGEST HEADER ("___"'s DEN) */
+
+h1 {
+	color: #f1e8c8;
+	font-size: 70px;
+	text-align: center;
+	font-family: 'Kalnia', serif;
+}
+
+
+/* MEDIUM HEADER */
+
+h2 {
+	color: #919191;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+/* SMALL HEADER */
+
+h3 {
+	color: #f1e8c8 !important;
+	font-size: 18px !important;
+}
+
+/* RIGHT SIDE PANEL HEADER */
+
+.sidebar h3 {
+	color: #ffffff !important;
+	font-size: 26px !important;
+	font-family: 'Kalnia', serif;
+}
+
+/* RIGHT SIDE PANELS */
+.panel {
+	background: rgba(140, 140, 140, 0.9) !important;
+	box-shadow: none !important;
+	border: none !important;
+	color: #000000 !important;
+	border-radius: 0px
+}
+
+/* ENERGY BAR BACKGROUND */
+.progress {
+	background: rgba(166, 166, 166, 0.5);
+	color: #000000 !important;
+	border-radius: 0px !important
+}
+
+/* ENERGY BAR COLOR */
+.progress-bar {
+	background: rgba(64, 64, 64, 0.5);
+	color: #000000 !important;
+	border-radius: 0px !important
+}
+
+/* ENERGY BAR TEXT */
+.progress div {
+	color: #000000 !important
+}
+
+
+/* LION INFO TABLE (Level, Stats, Territory Count, Etc.) */
+
+
+/* PANEL BACKGROUND COLOR */
+
+.table {
+	background: rgba(166, 166, 166, 0.5);
+	border: none !important;
+	border-collapse: separate;
+	border-radius: 0px
+}
+
+
+/* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
+
+.top,
+.bottom,
+th {
+	background: rgba(140, 140, 140, 0.7) !important;
+	color: #000000 !important;
+	border-radius: 0px
+}
+
+td.bottom a {
+        text-decoration: none !important
+}
+
+/* Color behind "Level, Stats, Branch, Territory" etc. */
+
+.inner-table .left {
+	background: rgba(140, 140, 140, 0.9) !important;
+        color: #000000;
+	border-radius: 0px
+}
+
+
+/* Color behind the number of all of the things above */
+
+.inner-table .right {
+	background: rgba(140, 140, 140, 0.4) !important;
+        color: #000000;
+	border-radius: 0px !important
+}
+
+td.right {
+	border-radius: 0px !important
+}
+
+/* IGNORE */
+.right_odd {
+	background: none !important
+}
+
+/* Affects the color behind "_ Unsorted", "_ Pregnant Lionesses", "View Pride Overview", and cave/mound names */
+
+.cave-grid,
+.mound-grid {
+	background: rgba(140, 140, 140, 0.8);
+	border: none !important;
+	border-radius: 0px !important
+}
+
+/* FEED ALL, PLAY ALL */
+
+.feature {
+	background: rgba(140, 140, 140, 0.8) !important;
+	color: #000000 !important;
+	border: none !important;
+	border-radius: 0px !important
+}
+
+/* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
+
+.feature,
+div.left {
+	background: rgba(140, 140, 140, 0.8);
+	border: none;
+	border-radius: 0px !important
+}
+
+/* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
+
+.table .left {
+	background: rgba(140, 140, 140, 0.8);
+        border-radius: 0px
+}
+
+/* Color behind the content of the elements listed above */
+
+input,
+select,
+textarea {
+	background: rgba(140, 140, 140, 0.5) !important;
+	border: none !important;
+	border-radius: 0px !important;
+	color: #000000 !important;
+	box-shadow: none !important;
+	text-shadow: none !important
+}
+
+/* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
+
+.item-header {
+	background: rgba(140, 140, 140, 0.8) !important;
+	color: #000000  !important;
+	border-radius: 0px !important;
+}
+
+.item {
+	background: rgba(140, 140, 140, 0.7) !important;
+	border: none !important;
+	border-radius: 0px !important
+}
+
+/* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
+
+div.slider.round /* Background */ {
+	background: #A6A6A6 !important
+}
+
+div.slider.round::before /* Circle Part */ {
+	background: #404040 !important
+}
+
+/* Copyright, Terms of Service, CoC, etc. */
+
+div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
+        color: #ffffff !important;
+        text-shadow: none !important
+}
+
+/* LINK COLOR */
+
+a:link,
+a:visited {
+	color: #f1e8c8!important;
+}
+
+/* LINK HOVER COLOR */
+
+a:hover {
+	color: #000000 !important
+}
+
+
+/* BOX CONTAINER */
+
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex
+}
+
+/* BOXES */
+
+.smallbox {
+	float: left;
+	background: rgba(140, 140, 140, 0.9);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 150px;
+	width: 28.4%;
+	overflow: auto
+}
+
+.mediumbox {
+	float: left;
+	background: rgba(140, 140, 140, 0.9);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 150px;
+	width: 43.8%;
+	overflow: auto
+}
+
+.largebox {
+	float: left;
+	background: rgba(140, 140, 140, 0.9);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 150px;
+	width: 90%;
+	overflow: auto
+}
+
+/* HOVER BOXES */
+
+.smallhoverbox {
+	float: left;
+	background: rgba(140, 140, 140, 0.9);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 50px;
+	width: 28.4%;
+	overflow: auto;
+        transition: 3s
+}
+
+.smallhoverbox:hover {
+	height: 150px;
+	width: 28.4%;
+}
+
+.mediumhoverbox {
+	float: left;
+	background: rgba(140, 140, 140, 0.9);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 50px;
+	width: 43.8%;
+	overflow: auto;
+        transition: 3s
+}
+
+.mediumhoverbox:hover {
+	height: 150px;
+	width: 43.8%;
+}
+
+.largehoverbox {
+	float: left;
+	background: rgba(140, 140, 140, 0.9);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 150px;
+	width: 90%;
+	overflow: auto;
+        transition: 3s
+}
+
+.largehoverbox:hover {
+	height: 150px;
+	width: 90%;
+}
+
+/* SCROLL BAR */
+
+/* WIDTH */
+
+::-webkit-scrollbar {
+	width: 10px
+}
+
+
+/* BACKGROUND */
+
+::-webkit-scrollbar-track {
+	background: #ffffff
+}
+
+
+/* "THUMB" */
+
+::-webkit-scrollbar-thumb {
+	background: #000000;
+	border-radius: 0px
+}
+
+
+/* LION AND USER AVATAR OPACITY */
+
+div#lion_image {
+	opacity: 1
+}
+
+table#player img {
+	opacity: 1
+}
+
+
+/* CIRCULAR LION AND USER AVATAR */
+
+div#lion_image {
+	border-radius: 5% !important;
+	overflow: hidden;
+	margin-top: 15px; /* May need adjusting */
+	margin-left: 12px /* May need adjusting */
+}
+
+table#player img {
+	border-radius: 5% !important;
+	overflow: hidden
+}
+
+
+/* LIODEN LOGO REPLACER */
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+	content: url('https://i.imgur.com/S7LXEy1.png')
+}
+
+/* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
+
+@media only screen and (max-width: 767px) {
+        .container.main .hidden-xs {
+            display: block !important;
+        }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+	display: block !important;
+}
+
+@media only screen and (min-width: 1200px) {
+		div.quote {
+			width: 790px;
+		}
+	}
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-6/nat598.cur), auto !important;} /* End https://www.cursors-4u.com */
